@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "type": "java",
+        "name": "App",
+        "request": "launch",
+        "mainClass": "com.example/com.example.App",
+        "projectName": ""
+    },
+    {
+        "type": "java",
+        "name": "Run JavaFX App",
+        "request": "launch",
+        "mainClass": "com.example.App",
+        "vmArgs": "--module-path ${workspaceFolder}/target/classes --add-modules javafx.controls,javafx.fxml"
+    }
+]
+}
